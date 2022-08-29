@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
         Theater theater = new Theater("Oly", 8, 12);
-//        theater.getSeats();
+        theater.getSeats();
 
         if(theater.reseveSeat("H11")) {
             System.out.println("Please pay");
